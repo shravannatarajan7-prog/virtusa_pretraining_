@@ -1,6 +1,6 @@
 rates = {
-    "Economy": 10,
-    "Premium": 18,
+    "ECONOMY": 10,
+    "PREMIUM": 18,
     "SUV": 25
 }
 

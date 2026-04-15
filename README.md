@@ -1,6 +1,6 @@
 # Virtusa Pre-Onboard Training Assignments
 
-This repository contains my pre-onboard training assignments for **Virtusa**, covering Java, Python, and SQL (AQL).
+This repository contains the assignments I completed as part of my pre-onboarding training for **Virtusa**. It includes work in Java, Python, and SQL, focusing on basic programming concepts and problem-solving.
 
 ---
 
@@ -8,64 +8,82 @@ This repository contains my pre-onboard training assignments for **Virtusa**, co
 
 ```
 ├── virtusa java assignment/       # Java OOP & Exception Handling
-│   ├── account.java               # Bank Account class with deposit/withdraw
-│   ├── FinSafeApp.java            # Main app demonstrating the Account system
-│   ├── insufficientfundsexception.java  # Custom exception for insufficient funds
-│   └── illegalargumentexception.java    # Custom illegal argument exception
+│   ├── account.java
+│   ├── FinSafeApp.java
+│   ├── insufficientfundsexception.java
+│   ├── illegalargumentexception.java
+│   └── Screenshot *.png           # Output screenshots
 │
-├── virtusa python assignment/     # Python scripting
-│   └── farecalc.py                # Fare calculator application
+├── virtusa python assignment/     # Python Scripting
+│   ├── farecalc.py
+│   └── Screenshot *.png           # Output screenshots
 │
-└── virtusa sql assignment/        # SQL / AQL queries
-    └── virtusa_sql.sql            # SQL assignment queries
+└── virtusa sql assignment/        # SQL Queries
+    ├── virtusa_sql.sql
+    └── Screenshot *.png           # Output screenshot
 ```
 
 ---
 
 ## 🟦 Java Assignment
 
-**Topics covered:**
-- Object-Oriented Programming (OOP) principles
-- Custom Exception Handling (`InsufficientFundsException`, `IllegalArgumentException`)
-- Encapsulation and class design
+This part mainly focuses on **object-oriented programming** and **exception handling**.
 
-**Files:**
+I created a simple banking system where a user can deposit and withdraw money. I also used custom exceptions to handle cases like insufficient balance and invalid inputs.
+
+### Files Included
+
 | File | Description |
 |------|-------------|
-| `account.java` | `Account` class with balance, deposit, and withdraw logic |
-| `FinSafeApp.java` | Main application demonstrating account operations |
-| `insufficientfundsexception.java` | Custom exception thrown when balance is insufficient |
-| `illegalargumentexception.java` | Custom exception for invalid argument inputs |
+| `account.java` | Contains the `Account` class with balance, deposit, and withdraw methods |
+| `FinSafeApp.java` | Main program to test the account operations |
+| `insufficientfundsexception.java` | Custom exception for low balance |
+| `illegalargumentexception.java` | Custom exception for invalid inputs |
+
+### Output
+
+![Java Output 1](virtusa%20java%20assignment/Screenshot%202026-04-15%20124926.png)
+![Java Output 2](virtusa%20java%20assignment/Screenshot%202026-04-15%20124943.png)
+![Java Output 3](virtusa%20java%20assignment/Screenshot%202026-04-15%20124956.png)
+![Java Output 4](virtusa%20java%20assignment/Screenshot%202026-04-15%20125013.png)
+![Java Output 5](virtusa%20java%20assignment/Screenshot%202026-04-15%20125027.png)
 
 ---
 
 ## 🐍 Python Assignment
 
-**Topics covered:**
-- Python scripting and functions
-- Conditional logic and arithmetic
+This section covers **Python scripting** with a fare calculator application that demonstrates conditional logic and arithmetic operations.
 
-**Files:**
+### Files Included
+
 | File | Description |
 |------|-------------|
 | `farecalc.py` | Fare calculator script using Python |
+
+### Output
+
+![Python Output 1](virtusa%20python%20assignment/Screenshot%202026-04-15%20125844.png)
+![Python Output 2](virtusa%20python%20assignment/Screenshot%202026-04-15%20130049.png)
+![Python Output 3](virtusa%20python%20assignment/Screenshot%202026-04-15%20130237.png)
 
 ---
 
 ## 🛢️ SQL Assignment
 
-**Topics covered:**
-- Structured Query Language (SQL / AQL)
-- Table creation, data manipulation, and queries
+This includes basic **SQL queries** covering common database operations.
 
-**Files:**
+### Files Included
+
 | File | Description |
 |------|-------------|
-| `virtusa_sql.sql` | SQL queries covering core database operations |
+| `virtusa_sql.sql` | Contains queries for creating tables, inserting data, and retrieving information |
+
+### Output
+
+![SQL Output](virtusa%20sql%20assignment/Screenshot%202026-04-13%20120927.png)
 
 ---
 
 ## 👤 Author
 
-**Virtusa Pre-Onboard Trainee**  
-Submitted for evaluation by the Virtusa team.
+**Pre-onboard trainee** – submitted as part of Virtusa training evaluation.
