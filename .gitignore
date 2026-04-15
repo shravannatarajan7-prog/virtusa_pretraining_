@@ -1,0 +1,22 @@
+# Compiled Java class files
+*.class
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# Logs and temp text files
+*.txt
+*.log
+
+# Word documents (not source code)
+*.docx
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db

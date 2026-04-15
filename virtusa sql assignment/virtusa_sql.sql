@@ -1,0 +1,10 @@
+select * from orders;
+select * from order_items;
+select * from customers;
+select * from products;
+UPDATE orders SET C_id = 16 WHERE id = 1016;
+select p.P_id, p.P_name, sum(oi.quantity) AS total_sold from order_items oi join products p ON oi.P_id = p.P_id join orders o on o.id = oi.O_id where o.status = "DELIVERED" group by p.P_id, p.P_name order by total_sold DESC;
+select c.id, c.name, sum(oi.quantity * oi.unit_price) as total from customers c join orders o on c.id = o.C_id join order_items oi on o.id = oi.O_id where o.status = "DELIVERED" group by c.id, c.name order by total desc;
+select date_format(o.order_date, "%m") as moth, sum(oi.quantity * oi.unit_price) as total_revenue from orders o join order_items oi on o.id = oi.O_id where o.status = "DELIVERED" group by moth order by moth;
+select p.category, sum(oi.quantity) as sold, sum(oi.quantity * oi.unit_price) as total_revenue from order_items oi join products p on oi.p_id = p.P_id join orders o on o.id = oi.O_id where o.status = "DELIVERED" group by p.category order by total_revenue desc; 
+SELECT c.id, c.name FROM customers c LEFT JOIN orders o ON c.id = o.C_id AND o.status = 'DELIVERED' WHERE o.id IS NULL;
