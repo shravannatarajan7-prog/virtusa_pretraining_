@@ -6,18 +6,18 @@ This repository contains the assignments I completed as part of my pre-onboardin
 
 Repository Structure
 
-virtusa java assignment/       - Java OOP and Exception Handling
+virtusa java assignment/ 
   account.java
   FinSafeApp.java
   insufficientfundsexception.java
   illegalargumentexception.java
   Screenshot *.png               (Output screenshots)
 
-virtusa python assignment/     - Python Scripting
+virtusa python assignment/    
   farecalc.py
   Screenshot *.png               (Output screenshots)
 
-virtusa sql assignment/        - SQL Queries
+virtusa sql assignment/        
   virtusa_sql.sql
   Screenshot *.png               (Output screenshot)
 
@@ -35,6 +35,14 @@ account.java – Contains the Account class with balance, deposit, and withdraw 
 FinSafeApp.java – Main program to test the account operations
 insufficientfundsexception.java – Custom exception for low balance
 illegalargumentexception.java – Custom exception for invalid inputs
+
+How to Run
+
+1. Compile the Java files:
+javac Account.java InsufficientFundsException.java FinSafeApp.java
+
+2. Run the application:
+java FinSafeApp
 
 Output:
 
@@ -66,6 +74,13 @@ Output:
 
 ![Python Output 3](virtusa%20python%20assignment/Screenshot%202026-04-15%20130237.png)
 
+How to Run (Python).
+
+1. Open terminal in the project folder
+
+2. Run the script:
+python farecalc.py
+
 ---
 
 SQL Assignment
@@ -75,6 +90,13 @@ This includes basic SQL queries covering common database operations.
 Files included:
 
 virtusa_sql.sql – Contains queries for creating tables, inserting data, and retrieving information
+
+How to Run (SQL)
+
+1. Open your SQL environment (Mysql).
+
+2. Execute the SQL file:
+SOURCE virtusa_sql.sql;
 
 Output:
 
