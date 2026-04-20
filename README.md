@@ -6,18 +6,18 @@ This repository contains the assignments I completed as part of my pre-onboardin
 
 Repository Structure
 
-virtusa java assignment/ 
+virtusa java assignment-
   account.java
   FinSafeApp.java
   insufficientfundsexception.java
   illegalargumentexception.java
   Screenshot *.png               (Output screenshots)
 
-virtusa python assignment/    
+virtusa python assignment-   
   farecalc.py
   Screenshot *.png               (Output screenshots)
 
-virtusa sql assignment/        
+virtusa sql assignment-        
   virtusa_sql.sql
   Screenshot *.png               (Output screenshot)
 
