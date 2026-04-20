@@ -39,9 +39,13 @@ illegalargumentexception.java – Custom exception for invalid inputs
 Output:
 
 ![Java Output 1](virtusa%20java%20assignment/Screenshot%202026-04-15%20124926.png)
+
 ![Java Output 2](virtusa%20java%20assignment/Screenshot%202026-04-15%20124943.png)
+
 ![Java Output 3](virtusa%20java%20assignment/Screenshot%202026-04-15%20124956.png)
+
 ![Java Output 4](virtusa%20java%20assignment/Screenshot%202026-04-15%20125013.png)
+
 ![Java Output 5](virtusa%20java%20assignment/Screenshot%202026-04-15%20125027.png)
 
 ---
@@ -57,7 +61,9 @@ farecalc.py – Fare calculator script using Python
 Output:
 
 ![Python Output 1](virtusa%20python%20assignment/Screenshot%202026-04-15%20125844.png)
+
 ![Python Output 2](virtusa%20python%20assignment/Screenshot%202026-04-15%20130049.png)
+
 ![Python Output 3](virtusa%20python%20assignment/Screenshot%202026-04-15%20130237.png)
 
 ---
