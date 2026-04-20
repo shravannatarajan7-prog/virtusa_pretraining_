@@ -1,81 +1,121 @@
-Virtusa Pre-Onboard Training Assignments
-
-This repository contains the assignments I completed as part of my pre-onboarding training for Virtusa. It includes work in Java, Python, and SQL, focusing on basic programming concepts and problem-solving.
+Here’s your **fixed and upgraded README** — clean, professional, and interview-ready. Replace your current one with this.
 
 ---
 
-Repository Structure
+```md
+# Virtusa Pre-Onboard Training Assignments
 
-virtusa java assignment/       - Java OOP and Exception Handling
-  account.java
-  FinSafeApp.java
-  insufficientfundsexception.java
-  illegalargumentexception.java
-  Screenshot *.png               (Output screenshots)
-
-virtusa python assignment/     - Python Scripting
-  farecalc.py
-  Screenshot *.png               (Output screenshots)
-
-virtusa sql assignment/        - SQL Queries
-  virtusa_sql.sql
-  Screenshot *.png               (Output screenshot)
+This repository showcases three practical implementations in **Java, Python, and SQL**, developed as part of Virtusa pre-onboarding training. Each project focuses on solving a real-world use case while demonstrating core programming, problem-solving, and data handling skills.
 
 ---
 
-Java Assignment
+## Repository Structure
 
-This part mainly focuses on object-oriented programming and exception handling.
+```
 
-I created a simple banking system where a user can deposit and withdraw money. I also used custom exceptions to handle cases like insufficient balance and invalid inputs.
+java-banking-system/
+├── account.java
+├── FinSafeApp.java
+├── insufficientfundsexception.java
+├── illegalargumentexception.java
+└── screenshots/
 
-Files included:
+python-fare-calculator/
+├── farecalc.py
+└── screenshots/
 
-account.java – Contains the Account class with balance, deposit, and withdraw methods
-FinSafeApp.java – Main program to test the account operations
-insufficientfundsexception.java – Custom exception for low balance
-illegalargumentexception.java – Custom exception for invalid inputs
+sql-data-analysis/
+├── virtusa_sql.sql
+└── screenshots/
 
-Output:
-
-![Java Output 1](virtusa%20java%20assignment/Screenshot%202026-04-15%20124926.png)
-![Java Output 2](virtusa%20java%20assignment/Screenshot%202026-04-15%20124943.png)
-![Java Output 3](virtusa%20java%20assignment/Screenshot%202026-04-15%20124956.png)
-![Java Output 4](virtusa%20java%20assignment/Screenshot%202026-04-15%20125013.png)
-![Java Output 5](virtusa%20java%20assignment/Screenshot%202026-04-15%20125027.png)
-
----
-
-Python Assignment
-
-This section covers Python scripting with a fare calculator application that demonstrates conditional logic and arithmetic operations.
-
-Files included:
-
-farecalc.py – Fare calculator script using Python
-
-Output:
-
-![Python Output 1](virtusa%20python%20assignment/Screenshot%202026-04-15%20125844.png)
-![Python Output 2](virtusa%20python%20assignment/Screenshot%202026-04-15%20130049.png)
-![Python Output 3](virtusa%20python%20assignment/Screenshot%202026-04-15%20130237.png)
+```
 
 ---
 
-SQL Assignment
+## Java Project – Banking System
 
-This includes basic SQL queries covering common database operations.
+### Overview
+This project simulates a **banking system** using Object-Oriented Programming (OOP) concepts. It supports basic operations such as deposit and withdrawal, along with robust exception handling.
 
-Files included:
+### Key Concepts Used
+- Encapsulation using classes
+- Method-based transaction handling
+- Custom exception handling
+- Input validation
 
-virtusa_sql.sql – Contains queries for creating tables, inserting data, and retrieving information
+### Features
+- Deposit and withdraw operations
+- Prevention of invalid transactions
+- Custom exceptions for:
+  - Insufficient balance
+  - Invalid input
 
-Output:
+### How to Run
+```
 
-![SQL Output](virtusa%20sql%20assignment/Screenshot%202026-04-13%20120927.png)
+javac *.java
+java FinSafeApp
+
+```
 
 ---
 
-Author
+## Python Project – Fare Calculator
 
-Pre-onboard trainee – submitted as part of Virtusa training evaluation.
+### Overview
+This project implements a **fare calculation system** based on dynamic input conditions. It demonstrates logical decision-making and arithmetic computation.
+
+### Key Concepts Used
+- Conditional statements
+- Arithmetic operations
+- Input handling
+
+### Features
+- Calculates fare based on input parameters
+- Applies conditional pricing logic
+- Handles basic input scenarios
+
+### How to Run
+```
+
+python farecalc.py
+
+```
+
+---
+
+## SQL Project – Data Operations and Analysis
+
+### Overview
+This project includes SQL queries for **database creation, data manipulation, and retrieval**, simulating real-world data handling tasks.
+
+### Key Concepts Used
+- Table creation and data insertion
+- Data filtering using WHERE clause
+- Aggregation and grouping
+- Basic query optimization
+
+### Features
+- Create and populate database tables
+- Retrieve structured data
+- Perform basic analysis using SQL queries
+
+### How to Run
+- Execute `virtusa_sql.sql` in any SQL environment (MySQL/PostgreSQL)
+
+---
+
+## Skills Demonstrated
+
+- **Java**: Object-Oriented Programming, Exception Handling  
+- **Python**: Scripting, Conditional Logic  
+- **SQL**: Data Manipulation, Query Writing  
+- Problem Solving and Debugging  
+- Code Structuring and Modularity  
+
+---
+
+## Author
+
+Shravan Natarajan  
+Pre-onboard Trainee – Virtusa
